@@ -1,0 +1,76 @@
+/* 清除默认边距 li  a */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 头部导航条 */
+
+header {
+    height: 80px;
+    /* background-color: antiquewhite; */
+}
+
+.log img {
+    height: 80px;
+    float: left;
+    overflow: hidden;
+}
+
+header ul li {
+    float: left;
+    overflow: hidden;
+    line-height: 80px;
+    margin: 0 35px;
+    color: #666;
+    font-size: 20px;
+}
+
+header ul li .characters:nth-of-type(1) {
+    color: red;
+}
+
+.register {
+    width: 150px;
+    height: 80px;
+    float: right;
+    overflow: hidden;
+    /* background-color: aqua; */
+    /* margin-right: 150px; */
+    position: relative;
+}
+
+.register img {
+    margin-top: 24px;
+}
+
+.register span {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border: 2px solid red;
+    line-height: 30px;
+    text-align: center;
+    /* margin-left: 20px; */
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 57px;
+    font-size: 20px;
+}
+
+.register span a {
+    color: red;
+}
